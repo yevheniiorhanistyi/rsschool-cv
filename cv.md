@@ -30,3 +30,21 @@ architecture, and code quality of the things I build.
 * Postman
 * Material UI
 
+## Education
+* [**Udemy**](https://www.udemy.com/)
+  + The Complete JavaScript + React Course;
+  + TypeScript from scratch;
+* [**Itgit**](https://itgid.info/ru)
+  + HTML for JavaScript developers;
+  + JavaScript v2.0;
+  + ReactJS;
+* [**Brainscloud**](https://brainscloud.ru/)
+  + Building websites with HTML and CSS for beginners.
+
+
+## Languages
+
+* Ukrainian
+* Russian
+* Polish: Elementary proficiency
+* English: Elementary proficiency
