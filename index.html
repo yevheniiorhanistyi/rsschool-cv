@@ -2,14 +2,380 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <title>Yevhenii Orhanistyi • Frontend Developer</title>
 </head>
 
 <body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo">
+          <h1 class="logo__title">Y</h1>
+        </a>
+        <nav class="nav">
+          <ul class="nav-wrapper">
+            <li class="nav-wrapper__item">
+              <a class="nav-wrapper__item-link nav-wrapper__item-link--active" href="#about">About</a>
+            </li>
+            <li class="nav-wrapper__item">
+              <a class="nav-wrapper__item-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-wrapper__item">
+              <a class="nav-wrapper__item-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section section-about" id="about">
+      <div class="container">
+        <div class="about">
+          <div class="about-content">
+            <h2 class="section-title about-content__title">
+              Hello, I'm Yevhenii.
+              <br>
+              I'm a Frontend Developer.
+            </h2>
+            <p class="about-content__text">
+              I’m Yevhenii Orhanistyi, and I am a passionate self-taught front-end developer. I
+              prioritize the user experience, architecture, and code quality of
+              the things I build. Creating applications is my greatest
+              passion, which inspires me to continually improve my skills.
+            </p>
+            <ul class="contact">
+              <li class="contact-item">
+                <a href="tel:+43513455576" class="contact-item__link">
+                  <svg class="contact-icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24"
+                    data-testid="CallIcon" tabindex="-1">
+                    <path
+                      d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li class="contact-item">
+                <a href="mailto:organistiy@gmail.com" class="contact-item__link">
+                  <svg class="contact-icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24"
+                    data-testid="MailIcon" tabindex="-1">
+                    <path
+                      d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4-8 5-8-5V6l8 5 8-5z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li class="contact-item">
+                <a href="https://www.linkedin.com/in/yevhenii-orhanistyi/" class="contact-item__link" target="_blank">
+                  <svg class="contact-icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24"
+                    data-testid="LinkedInIcon" tabindex="-1">
+                    <path
+                      d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li class="contact-item">
+                <a href="https://github.com/yevheniiorhanistyi" class="contact-item__link" target="_blank">
+                  <svg class="contact-icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24"
+                    data-testid="GitHubIcon" tabindex="-1">
+                    <path
+                      d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <img class="about__photo" src="./img/photo.png" alt="Yevhenii Orhanistyi">
+        </div>
+      </div>
+    </section>
+    <section class="section section-skills">
+      <div class="container">
+        <div class="skills">
+          <h2 class="section-title skills-title">Skills</h2>
+          <ul class="skills-wrapper">
+            <li class="skills-wrapper__item">HTML, CSS, SCSS, CSS Modules</li>
+            <li class="skills-wrapper__item">JavaScript(ES5, ES6+)</li>
+            <li class="skills-wrapper__item">TypeScript</li>
+            <li class="skills-wrapper__item">React</li>
+            <li class="skills-wrapper__item">Redux/Redux Toolkit</li>
+            <li class="skills-wrapper__item">Gulp, Webpack, Vite</li>
+            <li class="skills-wrapper__item">NPM, Yarn, Git</li>
+            <li class="skills-wrapper__item">Axios</li>
+            <li class="skills-wrapper__item">Postman</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section section-education">
+      <div class="container">
+        <div class="education">
+          <h2 class="section-title education-title">Education</h2>
+          <ul class="education-wrapper">
+            <li class="education-wrapper__item">
+              The Rolling Scopes School: Javascript/Front-end 2023Q1;
+            </li>
+            <li class="education-wrapper__item">
+              The Rolling Scopes School: REACT 2023 Q4;
+            </li>
+            <li class="education-wrapper__item">
+              Udemy: The Complete JavaScript + React Course, TypeScript from scratch;
+            </li>
+            <li class="education-wrapper__item">
+              Itgit: HTML for JavaScript developers, JavaScript v2.0, ReactJS;
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section section-experience" id="experience">
+      <div class="container">
+        <div class="experience">
+          <h2 class="section-title experience-title">Professional Experience</h2>
+          <ul class="experience-wrapper">
+            <li class="experience-wrapper__item">
+              <a class="experience-link" href="https://github.com/yevheniiorhanistyi/eCommerce-Application"
+                target="_blank">BuyIt</a>
+              <p class="experience-text">
+                BUYIT is a powerful eCommerce application developed
+                using state-of-the-art web development technologies. It
+                represents an innovative and user-friendly web
+                application designed for selling products online. The
+                primary goal of the project is to provide users with a
+                convenient and secure online shopping experience.
+              </p>
+              <p class="experience-text">
+                BUYIT represents my contribution to a dynamic and
+                forward-looking eCommerce application, showcasing my
+                expertise in web development and collaboration within a
+                team environment.
+              </p>
+              <p class="experience-text">
+                <strong>Stack:</strong> TypeScript, React, React Router, Material-UI,
+                Formik, Yup, Notistack, Dayjs, Jest, ESLint, Prettier,
+                Husky, Vite, Axios etc.
+              </p>
+            </li>
+            <li class="experience-wrapper__item">
+              <a class="experience-link" href="https://github.com/yevheniiorhanistyi/ReactPizza" target="_blank">React
+                pizza</a>
+              <p class="experience-text">
+                Interactive application that allows users to order pizza
+                onlin e developed using TypeScript, React, and Redux
+                Toolkit. Utilized Axios to fetch data from the MockApi
+                service.
+              </p>
+              <p class="experience-text">
+                <strong>Stack:</strong> TypeScript, Redux Toolkit, Redux Persist, React
+                Router v6, Axios, Lodash.Debounce etc.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section section-code">
+      <div class="container">
+        <div class="code">
+          <h2 class="section-title code-title">Code example</h2>
+          <pre><code class="language-js">
+&lt;Formik
+      initialValues={{
+        email: '',
+        password: '',
+      }}
+      validationSchema={SignInSchema}
+      onSubmit={async (values, { resetForm }) => {
+        try {
+          await authenticateClient(values);
+          const { firstName, lastName, email } = await getCustomerData();
+          setUserData({ firstName, lastName, email });
+          onSignInSuccess();
+        } catch (error) {
+          if (error instanceof Error) showErrorModal(error);
+        } finally {
+          resetForm();
+        }
+      }}
+&gt;
+              </code></pre>
+        </div>
+      </div>
+    </section>
+    <section class="section section-languages">
+      <div class="container">
+        <div class="languages">
+          <h2 class="section-title languages-title">Languages</h2>
+          <ul class="languages-wrapper">
+            <li class="languages-wrapper__item">
+              Ukrainian (Native)
+            </li>
+            <li class="languages-wrapper__item">
+              Russian (Native)
+            </li>
+            <li class="languages-wrapper__item">
+              Polish (Upper-intermediate)
+            </li>
+            <li class="languages-wrapper__item">
+              English: (Intermediate)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <p class="copyright">2024 by Yevhenii Orhanistyi</p>
+        <a href="https://github.com/yevheniiorhanistyi" class="footer__link" target="_blank">
+          <svg class="footer__icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="GitHubIcon"
+            tabindex="-1">
+            <path
+              d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27">
+            </path>
+          </svg>
+        </a>
+        <a class="footer__link" href="https://rs.school/courses/javascript-ru" target="_blank" aria-label="RS school">
+          <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 552.8 205.3">
+            <style>
+              .st0 {
+                fill: #fff
+              }
 
+              .st1 {
+                clip-path: url(#SVGID_2_)
+              }
+
+              .st2 {
+                clip-path: url(#SVGID_4_)
+              }
+
+              .st3 {
+                clip-path: url(#SVGID_6_)
+              }
+
+              .st4 {
+                clip-path: url(#SVGID_8_)
+              }
+
+              .st5 {
+                fill: #fff;
+                stroke: #000;
+                stroke-width: 4;
+                stroke-miterlimit: 10
+              }
+
+              .st6 {
+                clip-path: url(#SVGID_8_)
+              }
+
+              .st6,
+              .st7 {
+                fill: none;
+                stroke: #000;
+                stroke-width: 4;
+                stroke-miterlimit: 10
+              }
+
+              .st8,
+              .st9 {
+                clip-path: url(#SVGID_10_)
+              }
+
+              .st9 {
+                fill: none;
+                stroke: #000;
+                stroke-width: 4;
+                stroke-miterlimit: 10
+              }
+            </style>
+            <title>rs_school_js</title>
+            <path
+              d="M285.4 68l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.9 3.6 6.9 5.4 12.2 5.4 3.9 0 7-.9 9.1-2.8 2-1.5 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.1-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4 6 4.2 9.6 11 10.7 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8s-5.3-2.8-9.2-2.8c-3.2 0-5.6.7-7.2 2-1.5 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.5 13.3 0 5.6-1.6 11.2-4.8 15.9-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8S286.1 77 285.4 68zM6.3 97.6V8.2h46.1c8.5 0 15.1.7 19.6 2.2 4.4 1.4 8.3 4.3 10.9 8.2 2.9 4.3 4.3 9.3 4.2 14.5.3 8.8-4.2 17.2-11.9 21.6-3 1.7-6.3 2.9-9.7 3.5 2.5.7 5 1.9 7.2 3.3 1.7 1.4 3.1 3 4.4 4.7 1.5 1.7 2.8 3.6 3.9 5.6l13.4 25.9H63L48.2 70.2c-1.9-3.5-3.5-5.8-5-6.9-2-1.4-4.4-2.1-6.8-2.1H34v36.3H6.3zM34 44.4h11.7c2.5-.2 4.9-.6 7.3-1.2 1.8-.3 3.4-1.3 4.5-2.8 2.7-3.6 2.3-8.7-1-11.8-1.8-1.5-5.3-2.3-10.3-2.3H34v18.1zM0 174.2l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.8 3.6 6.9 5.5 12.2 5.5 3.9 0 7-.9 9.1-2.8 2-1.6 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.2-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4s9.5 11 10.6 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8-2.2-1.9-5.3-2.8-9.2-2.7-3.2 0-5.6.7-7.2 2.1-1.6 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.6 13.2 0 5.6-1.7 11.1-4.8 15.8-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8-5.9-6-9.2-13.4-10-22.4z" />
+            <path
+              d="M133 167.2l24.2 7.3c-1.3 6.1-4 11.9-7.7 17-3.4 4.5-7.9 8-13 10.3-5.2 2.3-11.8 3.5-19.8 3.5-9.7 0-17.7-1.4-23.8-4.2-6.2-2.8-11.5-7.8-16-14.9-4.5-7.1-6.7-16.2-6.7-27.3 0-14.8 3.9-26.2 11.8-34.1s19-11.9 33.4-11.9c11.3 0 20.1 2.3 26.6 6.8 6.4 4.6 11.2 11.6 14.4 21l-24.4 5.4c-.6-2.1-1.5-4.2-2.7-6-1.5-2.1-3.4-3.7-5.7-4.9-2.3-1.2-4.9-1.7-7.5-1.7-6.3 0-11.1 2.5-14.4 7.6-2.5 3.7-3.8 9.6-3.8 17.6 0 9.9 1.5 16.7 4.5 20.4 3 3.7 7.2 5.5 12.7 5.5 5.3 0 9.3-1.5 12-4.4 2.7-3.1 4.7-7.4 5.9-13zm56.5-52.8h27.6v31.3h30.2v-31.3h27.8v89.4h-27.8v-36.2h-30.2v36.2h-27.6v-89.4z" />
+            <path
+              d="M271.3 159.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.3 4 34.4 12S364 144 364 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8s4.9-10.8 4.9-20.8c0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5zm93.4-.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.4 4 34.4 12S485 144 485 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8 3.3-3.9 4.9-10.8 4.9-20.8 0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10.1 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5z" />
+            <path d="M482.1 114.4h27.6v67.4h43.1v22H482v-89.4z" />
+            <ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63" ry="51.8" />
+            <defs>
+              <ellipse id="SVGID_1_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8" />
+            </defs>
+            <clipPath id="SVGID_2_">
+              <use xlink:href="#SVGID_1_" overflow="visible" />
+            </clipPath>
+            <g class="st1">
+              <path transform="rotate(-37.001 420.82 68.353)" class="st0" d="M330.9-14.2h179.8v165.1H330.9z" />
+              <g id="Layer_2_1_">
+                <defs>
+                  <path id="SVGID_3_" transform="rotate(-37.001 420.82 68.353)" d="M330.9-14.2h179.8v165.1H330.9z" />
+                </defs>
+                <clipPath id="SVGID_4_">
+                  <use xlink:href="#SVGID_3_" overflow="visible" />
+                </clipPath>
+                <g id="Layer_1-2" class="st2">
+                  <ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63"
+                    ry="51.8" />
+                  <defs>
+                    <ellipse id="SVGID_5_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63"
+                      ry="51.8" />
+                  </defs>
+                  <clipPath id="SVGID_6_">
+                    <use xlink:href="#SVGID_5_" overflow="visible" />
+                  </clipPath>
+                  <g class="st3">
+                    <path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z" />
+                    <defs>
+                      <path id="SVGID_7_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z" />
+                    </defs>
+                    <clipPath id="SVGID_8_">
+                      <use xlink:href="#SVGID_7_" overflow="visible" />
+                    </clipPath>
+                    <g class="st4">
+                      <ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63"
+                        ry="51.8" />
+                    </g>
+                    <path transform="rotate(-37 420.799 68.802)" class="st6" d="M357.8 17h125.9v103.7H357.8z" />
+                    <ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63"
+                      ry="51.8" />
+                    <path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z" />
+                    <defs>
+                      <path id="SVGID_9_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z" />
+                    </defs>
+                    <clipPath id="SVGID_10_">
+                      <use xlink:href="#SVGID_9_" overflow="visible" />
+                    </clipPath>
+                    <g class="st8">
+                      <ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63"
+                        ry="51.8" />
+                    </g>
+                    <path transform="rotate(-37 420.799 68.802)" class="st9" d="M357.8 17h125.9v103.7H357.8z" />
+                    <path transform="rotate(-37.001 420.82 68.353)" class="st7" d="M330.9-14.2h179.8v165.1H330.9z" />
+                  </g>
+                  <ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63"
+                    ry="51.8" />
+                  <path
+                    d="M392.4 61.3l10-7 12.3 17.5c2.1 2.8 3.7 5.8 4.9 9.1.7 2.5.5 5.2-.5 7.6-1.3 3-3.4 5.5-6.2 7.3-3.3 2.3-6.1 3.6-8.5 4-2.3.4-4.7 0-6.9-1-2.4-1.2-4.5-2.9-6.1-5.1l8.6-8c.7 1.1 1.6 2.1 2.6 2.9.7.5 1.5.8 2.4.8.7 0 1.4-.3 1.9-.7 1-.6 1.7-1.8 1.6-3-.3-1.7-1-3.4-2.1-4.7l-14-19.7zm30 11.1l9.1-7.2c1 1.2 2.3 2.1 3.7 2.6 2 .6 4.1.2 5.8-1.1 1.2-.8 2.2-1.9 2.6-3.3.6-1.8-.4-3.8-2.2-4.4-.3-.1-.6-.2-.9-.2-1.2-.1-3.3.4-6.4 1.7-5.1 2.1-9.1 2.9-12.1 2.6-2.9-.3-5.6-1.8-7.2-4.3-1.2-1.7-1.8-3.7-1.9-5.7 0-2.3.6-4.6 1.9-6.5 1.9-2.7 4.2-5 7-6.8 4.2-2.9 7.9-4.3 11.1-4.3 3.2 0 6.2 1.5 9 4.6l-9 7.1c-1.8-2.3-5.2-2.8-7.5-1l-.3.3c-1 .6-1.7 1.5-2.1 2.6-.3.8-.1 1.7.4 2.4.4.5 1 .9 1.7.9.8.1 2.2-.3 4.2-1.2 5-2.1 8.8-3.3 11.4-3.7 2.2-.4 4.5-.2 6.6.7 1.9.8 3.5 2.2 4.6 3.9 1.4 2 2.2 4.4 2.3 6.9.1 2.6-.6 5.1-2 7.3-1.8 2.7-4.1 5-6.8 6.8-5.5 3.8-10 5.4-13.6 4.8-3.9-.6-7.1-2.6-9.4-5.5z" />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </body>
 
 </html>
