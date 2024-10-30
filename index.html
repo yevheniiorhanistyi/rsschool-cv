@@ -197,7 +197,7 @@
         password: '',
       }}
       validationSchema={SignInSchema}
-      onSubmit={async (values, { resetForm }) => {
+      onSubmit={async (values, { resetForm }) =&gt; {
         try {
           await authenticateClient(values);
           const { firstName, lastName, email } = await getCustomerData();
